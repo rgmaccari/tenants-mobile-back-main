@@ -74,6 +74,7 @@ com.maccari.tenant_mobile_backend
 ## 🚀 Endpoints Principais
 
 - `POST /auth/login` — autenticação com credenciais.
+- `GET /auth/validation` — validação das credenciais para navegação entre as rotas do front-end.
 - `GET /tenants/findAll` — retorna tenants com ou sem filtro.
 - `PUT /tenants/enable` — ativa um tenant.
 - `DELETE /tenants/remove` — desativa um tenant.
